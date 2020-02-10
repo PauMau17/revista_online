@@ -1,0 +1,47 @@
+.item-nav {
+    background-color: $teal;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nav {
+    display: inline-block;
+    width: 75vw;
+    text-align: right;
+}
+
+ul li {
+    margin-left: 1.5rem;
+    display: inline-block;
+    list-style: none;
+    font-weight: $black;
+    text-transform: uppercase;
+}
+
+a,
+i {
+    color: $white;
+    margin-left: 0.5rem;
+}
+
+.logo {
+    font-size: $xx-large;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    color: white;
+    margin-left: 2rem;
+
+}
+
+.menu {
+    width: 100vw;
+    padding: 1rem;
+    background-color: $teal;
+    border-bottom: 1px solid $platinum;
+}
+
+
+/*cuadro para buscar*/
+.input-menu {
+    border-radius: 30px;
+}

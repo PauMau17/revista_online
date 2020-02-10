@@ -1,0 +1,15 @@
+.group input,
+    {
+    display: inline-block;
+    font-size: $small;
+    padding: 0.3rem;
+    border: 1px solid $platinum;
+
+}
+
+.group button {
+    background-color: $teal;
+    color: white;
+    font-size: $medium;
+    padding: 0.3rem;
+}

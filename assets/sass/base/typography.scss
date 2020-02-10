@@ -1,0 +1,21 @@
+body {
+    font-family: 'Inconsolata', monospace;
+}
+
+h2 {
+    @include relative-converter(font-size, rem, 60, 16);
+}
+
+h3 {
+    @include relative-converter(font-size, rem, 30, 16);
+}
+
+h4 {
+    @include relative-converter(font-size, rem, 20, 16)
+}
+
+h4 {
+    font-family: $playfair;
+    padding: .8rem;
+    text-align: center;
+}

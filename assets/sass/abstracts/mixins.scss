@@ -1,0 +1,73 @@
+// Transforma px en rem
+@mixin relative-converter($property, $unit, $target, $context) {
+    $result: ($target / $context);
+    #{$property}: #{$result + $unit};
+}
+
+@media only screen and (max-width: 768px) {
+    .item-sidebar {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .container {
+        display: grid;
+        grid-gap: 10px;
+    }
+
+    .item-nav {
+        display: grid;
+        background-color: $teal;
+
+    }
+
+    .logo {
+        display: grid;
+        columns: 1;
+        font-size: $medium;
+    }
+
+    .nav {
+        display: grid;
+        grid-template-rows: 1fr;
+        text-align: left;
+        columns: 1;
+    }
+
+    #us {
+        display: none;
+        grid-gap: 10px;
+    }
+
+    .item-noticias {
+        display: grid;
+        grid-gap: 10px;
+    }
+
+    .item-newsletter {
+        display: grid;
+        grid-gap: 10px;
+    }
+
+
+
+    .item-footer {
+        display: grid;
+        grid-gap: 10px;
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
